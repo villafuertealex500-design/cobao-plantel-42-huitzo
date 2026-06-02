@@ -76,35 +76,35 @@ nav ul li a:hover{
     0%{
         background:
         linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-        url("imagenes/imagen\ 1.jpeg");
+        url("img\ 1.jpg");
         background-size:cover;
     }
 
     25%{
         background:
         linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-        url("imagenes/imagen\ 2.jpeg");
+        url("img\ 2.jpeg");
         background-size:cover;
     }
 
     50%{
         background:
         linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-        url("imagenes/imagen\ 3.jpg");
+        url("img\ 3.jpeg");
         background-size:cover;
     }
 
     75%{
         background:
         linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-        url("imagenes/imagen\ 4.jpg");
+        url("img\ 4.jpeg");
         background-size:cover;
     }
 
     100%{
         background:
         linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-        url("imagenes/imagen\ 1.jpeg");
+        url("img\ 1.jpg");
         background-size:cover;
     }
 }
@@ -207,7 +207,11 @@ th, td{
 .galeria img:hover{
     transform:scale(1.05);
 }
-
+.card{
+    overflow:hidden;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
 /* REDES */
 
 .redes{
